@@ -1,0 +1,24 @@
+#full-page {
+  height: 100vh;
+  width: 100vw;
+  background-color: blanchedalmond;
+  text-align: center;
+}
+
+#container {
+  width: 480px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  padding: 10px;
+  background-color: rgb(145, 141, 141);
+}
+
+.cell {
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+  background-color:dimgray;
+  border: 1px solid rgb(145, 141, 141);
+}
